@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PaperStacks.io — Research, neatly stacked</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.sand.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+
+      html * {
+        font-family:
+          Familjen Grotesk,
+          sans-serif;
+      }
+    </style>
+    <meta
+      name="description"
+      content="PaperStacks.io — Find, stack, sort, and share research papers."
+    />
+  </head>
+
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><strong>PaperStacks.io</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" style="text-align: center">
+      <h1>PaperStacks.io</h1>
+      <p class="secondary">
+        Find, stack, sort, and share papers for your research.
+      </p>
+    </section>
+
+    <main class="container">
+      <section style="margin-top: 4rem">
+        <h2>All scientific knowledge, open to everyone!</h2>
+        <p>
+          The scientific publication ecosystem relies heavily on proprietary
+          platforms for search, indexing, and reference management, resulting in
+          opaque processes, strong vendor lock-in, and limited data sovereignty.
+          At the same time, open alternatives are fragmented, poorly
+          interoperable, and lack reliable linking between different publication
+          versions. Although open metadata sources exist, there is no
+          integrated, transparent, and reproducible infrastructure that supports
+          the full scientific workflow. Consequently, researchers and
+          institutions lack long-term control, interoperability, and clarity
+          over access, versions, and use of scientific publications, especially
+          from a European perspective.
+        </p>
+      </section>
+
+      <section id="mission" style="margin-top: 4rem">
+        <h2>Mission</h2>
+        <p>
+          <strong
+            >Our mission is to empower researchers with open, interoperable, and
+            sovereign infrastructure for scientific knowledge.</strong
+          >
+        </p>
+      </section>
+
+      <section style="margin-top: 4rem">
+        <hgroup>
+          <h2>Technical Demonstrator</h2>
+          <p>
+            paperstacks.io is a user-facing prototype of an open, data-sovereign
+            digital infrastructure for discovering, organizing, validating, and
+            sharing scholarly publications.
+          </p>
+        </hgroup>
+      </section>
+
+      <section id="features" style="margin-top: 4rem">
+        <h2>Features</h2>
+        <div class="grid">
+          <article>
+            <header
+              style="height: 520px; align-items: center; align-content: center"
+            >
+              <img src="img/PS-search.png" alt="find a paper stack" />
+            </header>
+            <h3>Find</h3>
+            <ul>
+              <li>Discover research articles and references quickly.</li>
+              <li>Keep all papers relevant to your research in one place.</li>
+              <li>Search across titles, authors, and metadata.</li>
+            </ul>
+          </article>
+
+          <article>
+            <header
+              style="height: 520px; align-items: center; align-content: center"
+            >
+              <img src="img/PS-public-stacks.png" alt="public stacks" />
+            </header>
+            <h3>Share</h3>
+            <ul>
+              <li>Share paper stacks with collaborators.</li>
+              <li>Create public links for open access papers.</li>
+              <li>Simple permissions for controlled collaboration.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid">
+          <article>
+            <h3>Stack &amp; Sort</h3>
+            <ul>
+              <li>Organize papers into clear, structured paper stacks.</li>
+              <li>
+                Automatic metadata cleanup for accurate, consistent references.
+              </li>
+              <li>
+                Duplicate detection to keep your library clean and reliable.
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Notes &amp; Highlights</h3>
+            <ul>
+              <li>Highlight PDFs and attach notes directly to papers.</li>
+              <li>Keep quotes, snippets, and thoughts next to the source.</li>
+              <li>
+                Everything stays searchable and connected to the reference.
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid">
+          <article>
+            <h3>Access Everywhere</h3>
+            <ul>
+              <li>Cloud-based access on web, desktop, and mobile.</li>
+              <li>No setup or configuration required.</li>
+              <li>Your library is always up to date across devices.</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Add &amp; Import</h3>
+            <ul>
+              <li>Add PDFs or BibTeX files in seconds.</li>
+              <li>
+                Migrate your entire library from Zotero, EndNote, or Mendeley.
+              </li>
+              <li>Simple, frictionless onboarding for existing workflows.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid">
+          <article>
+            <h3>Privacy-First</h3>
+            <ul>
+              <li>No ads, trackers, or behavioral analytics.</li>
+              <li>Your research data stays private and under your control.</li>
+              <li>Export your data anytime.</li>
+            </ul>
+          </article>
+
+          <article id="open">
+            <h3>Open Source</h3>
+            <ul>
+              <li>Fully open-source and transparent.</li>
+              <li>Built with and for the research community.</li>
+              <li>No lock-in, your library is future-proof.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <section id="about">
+        <aside>
+          <nav class="links">
+            <ul>
+              <li><strong>About</strong></li>
+              <li>
+                <a
+                  class="secondary"
+                  data-discover="true"
+                  href="https://www.th-nuernberg.de/impressum/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Impressum</a
+                >
+              </li>
+              <li>
+                <a
+                  class="secondary"
+                  data-discover="true"
+                  href="https://www.th-nuernberg.de/einrichtungen-gesamt/in-institute/institut-fuer-angewandte-informatik-ifai/"
+                  >TH Nürnberg</a
+                >
+              </li>
+              <li>
+                <a
+                  class="secondary"
+                  data-discover="true"
+                  href="https://github.com/paperstacks-io"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+      <hr />
+      <section>
+        <small>© 2026 PaperStacks.io</small>
+      </section>
+    </footer>
+  </body>
+</html>
